@@ -1,0 +1,26 @@
+\documentclass{book}
+\usepackage[english, magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{blindtext}
+\title{Zagyva szövegek}
+\author{Görög Krisztina E.}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\selectlanguage{magyar}
+\foreignlanguage{english}{
+\blindtext}
+
+\frenchspacing
+
+\hulipsum[1]
+
+
+\foreignlanguage{latin}{\lipsum[1]}
+
+
+\end{document}

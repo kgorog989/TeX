@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[english, magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+
+\begin{document}
+\selectlanguage{magyar}
+\foreignlanguage{english}{
+\colorbox{black}{\textcolor{white}{\parbox{1\linewidth}{\today"\blindtext"}}}}
+
+\frenchspacing
+\begin{flushright}
+\today
+"\hulipsum[1]"
+\end{flushright}
+
+
+\selectlanguage{english}
+\linespread{1.6}{\foreignlanguage{latin}{\lipsum[1]}}
+\selectfont
+
+\end{document}
