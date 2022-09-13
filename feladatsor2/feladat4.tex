@@ -1,0 +1,72 @@
+\documentclass[twoside]{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{geometry}
+
+\title{Szövegek}
+\author{Görög Krisztina}
+\date{\today}
+
+\geometry{left=5cm,right=5cm,top=3cm,bottom=3cm}
+\geometry{bindingoffset=1cm}
+\geometry{marginparwidth=3cm}
+\geometry{marginparsep=0.5cm}
+
+
+\begin{document}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\maketitle
+
+\begin{abstract}
+\hulipsum[1]\footnote{Ez egy megjegyzés.}
+\end{abstract}
+
+\setcounter{tocdepth}{5}
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\setcounter{secnumdepth}{5}
+
+\section{Első section}
+\pagenumbering{arabic}
+\subsection{Első subsection}
+\hulipsum
+
+\subsection{Második subsection}
+\hulipsum
+
+\section[Második]{Második section}
+\subsection{Subsection}
+\subsubsection{Subsubsection}
+\paragraph{Paragraph}
+\subparagraph{Subparagraph}
+
+\appendix
+\section{Függelék első section}
+\subsection{Elsső subsection}
+\quote{\hulipsum[2]}
+\marginpar{Ez egy megjegyzés.}
+\subsection{Második subsection}
+\quotation{\hulipsum[2]}
+\marginpar{Megjegyzés.}
+
+\section{Függelék második section}
+\subsection{Első subsection}
+\begin{verse}
+Hazádnak rendületlenűl\\
+Légy híve, oh magyar;\\
+Bölcsőd az s majdan sírod is,\\
+Mely ápol s eltakar.\newline
+
+A nagy világon e kivűl\\
+Nincsen számodra hely;\\
+Áldjon vagy verjen sors keze;\\
+Itt élned, halnod kell.
+\end{verse}
+\subsection{Második subsection}
+
+
+\end{document}

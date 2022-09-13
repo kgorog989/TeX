@@ -1,0 +1,1292 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.13)  13 SEP 2022 13:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./feladat6.tex
+(feladat6.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-30>
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/08/29 3.79 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/babel-hungarian\magyar.l
+df
+Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
+Package babel Info: Making ` an active character on input line 2819.
+\c@footnote@add=\count195
+\c@footnote@ch=\count196
+))
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hu\babel-
+magyar.tex
+Package babel Info: Importing font and identification data for magyar
+(babel)             from babel-hu.ini. Reported on input line 11.
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/hulipsum\hulipsum.sty
+Package: hulipsum 2020/11/03 v1.1 Hungarian dummy text (Lorum ipse)
+\c@hulipsum@count=\count197
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+\c@Gm@tempcnt=\count266
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks17
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count267
+\l__pdf_internal_box=\box51
+) (feladat6.aux)
+\openout1 = `feladat6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 28.45274pt
+* modes: twoside 
+* h-part:(L,W,R)=(142.26378pt, 301.3147pt, 142.26378pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=301.3147pt
+* \textheight=624.25346pt
+* \oddsidemargin=98.44653pt
+* \evensidemargin=69.99379pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.35826pt
+* \marginparsep=14.22636pt
+* \columnsep=56.9055pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+LaTeX Info: Redefining \cal on input line 497.
+LaTeX Info: Redefining \mit on input line 498.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 25.
+
+Underfull \hbox (badness 1748) in paragraph at lines 25--27
+\T1/cmr/m/n/10 ka-pá-rá-sát az iz-ma mi-gál-
+ []
+
+(feladat6.toc
+Overfull \hbox (25.03723pt too wide) in paragraph at lines 6--6
+ [][] []\T1/cmr/m/n/10 Subsubsection []  
+ []
+
+
+Overfull \hbox (49.72571pt too wide) in paragraph at lines 7--7
+ [][] []\T1/cmr/m/n/10 Paragraph []  
+ []
+
+
+Overfull \hbox (104.40675pt too wide) in paragraph at lines 8--8
+ [][] []\T1/cmr/m/n/10 Subparagraph []  
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `feladat6.toc'.
+
+ [1{C:/Users/Diak/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+
+]
+Underfull \hbox (badness 1748) in paragraph at lines 41--41
+\T1/cmr/m/n/10 ka-pá-rá-sát az iz-ma mi-gál-
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 41--41
+[]\T1/cmr/m/n/10 Az üt-les ön-cé-je ese-tén
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 41--41
+\T1/cmr/m/n/10 ege-z® plást köz-vet-len adó
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 41--41
+\T1/cmr/m/n/10 és fé-s® eve-z® amus nem
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 41--41
+\T1/cmr/m/n/10 báj-da-la-nak el, ha for-ma-i-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 41--41
+\T1/cmr/m/n/10 a gya-ro-kok edé-se. Je-l®-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 41--41
+\T1/cmr/m/n/10 zá-suk-ra, meg saj-gás is a
+ []
+
+[1
+
+]
+Underfull \hbox (badness 2884) in paragraph at lines 41--41
+\T1/cmr/m/n/10 kok, anya-tos zi-mik vonk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/bx/n/12 Második sub-
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 44--44
+\T1/cmr/m/n/10 ka-pá-rá-sát az iz-ma mi-gál-
+ []
+
+
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 3271) in paragraph at lines 44--44
+[]\T1/cmr/m/n/10 Az üt-les ön-cé-je ese-tén
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 44--44
+\T1/cmr/m/n/10 ege-z® plást köz-vet-len adó
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 44--44
+\T1/cmr/m/n/10 és fé-s® eve-z® amus nem
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 44--44
+\T1/cmr/m/n/10 báj-da-la-nak el, ha for-ma-i-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 44--44
+\T1/cmr/m/n/10 a gya-ro-kok edé-se. Je-l®-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 44--44
+\T1/cmr/m/n/10 zá-suk-ra, meg saj-gás is a
+ []
+
+[3]
+Underfull \hbox (badness 2884) in paragraph at lines 44--44
+\T1/cmr/m/n/10 kok, anya-tos zi-mik vonk
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+ \T1/cmr/bx/n/10 2.1.1.1.1. Sub-pa-ra-gra-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 53--53
+[]\T1/cmr/bx/n/12 Elss® sub-sec-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 te több mint
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 54--56
+\T1/cmr/m/n/10 en-ség gé-szet reg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 net® em-tes-ke-dés
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 54--56
+\T1/cmr/m/n/10 szom-bó-dik, en-nek
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 54--56
+\T1/cmr/m/n/10 ga-tos le-l®-lés ehe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 és ko-zá-sok-ban,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 gaz-sá-gos mo-hos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 föl-csö-kön aro-sít
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 föl-de-ren din-gos
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 54--56
+\T1/cmr/m/n/10 em-tes-ke-dés-nek es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 vo-lás) so-rán vi-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 54--56
+\T1/cmr/m/n/10 szont men-t® al-va
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 54--56
+\T1/cmr/m/n/10 ra-dó-cot kell zsib-
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 54--56
+\T1/cmr/m/n/10 ro-dás ke-d® men-
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 54--56
+\T1/cmr/m/n/10 di-á-já-val te-te-ke-z®.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 54--56
+\T1/cmr/m/n/10 A ko-lan-gan sa-lat
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 54--56
+\T1/cmr/m/n/10 gyü-ge a ságó és
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 54--56
+\T1/cmr/m/n/10 visz-ti-kus és fe-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 ahol a duz-zadt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 cisz-ti kan-ta-tok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\T1/cmr/m/n/10 bo-ros köny-ve-dést
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 54--56
+\T1/cmr/m/n/10 a kí-t® for-nyé-kos
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 54--56
+\T1/cmr/m/n/10 vi-dem 55 to-ru-ma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]\T1/cmr/bx/n/12 Második
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+[]\T1/cmr/m/n/10 A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vez-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vet-ben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 éven-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 több
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 en-ség
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 gé-szet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 reg-net®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 em-tes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ke-dés
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 szom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 bó-dik,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 en-nek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 leg-alább
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 a 90
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 to-ru-ma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 boj-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vol-na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 a vo-lá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 sok-nál.
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 57--59
+\T1/cmr/m/n/10 A ga-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 le-l®-lés
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ehe-lyett
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vég-z®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vi-dem
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 57--59
+\T1/cmr/m/n/10 és ko-zá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 sok-ban,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 gaz-sá-gos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 mo-hos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 föl-csö-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 kön
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 57--59
+\T1/cmr/m/n/10 aro-sít a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 fa-vá-já-ra.
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 57--59
+\T1/cmr/m/n/10 Oda la-
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 57--59
+\T1/cmr/m/n/10 tol-ják a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 di-ké-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 moly-vás
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 föl-de-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 din-gos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 em-tes-ke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 dés-nek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 es-hent,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ér-zeg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 (vagy-is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vo-lás)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 so-rán
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vi-szont
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 men-t®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 al-va
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 le-het-ne.
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 57--59
+\T1/cmr/m/n/10 Az eren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 lanyós-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 hoz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 mint-egy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 szö-vel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 köb-mé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ter-nyi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ra-dó-cot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ál-nia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ami a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 haj-gó
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ro-dás
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ke-d®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 men-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 á-já-val
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 te-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ke-z®.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 A ko-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 lan-gan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 sa-lat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 rek-vás-ba
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 57--59
+\T1/cmr/m/n/10 gyü-ge a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ságó és
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 zsör-zes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 a le-l®k
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 tor-pu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 lá-sa, a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 visz-ti-kus
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 57--59
+\T1/cmr/m/n/10 és fe-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 em-tes-
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 57--59
+\T1/cmr/m/n/10 pa-ró és
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 57--59
+\T1/cmr/m/n/10 a te-het.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 Eze-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 az al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vá-kat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 élet-ben,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ahol a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 duz-zadt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 cisz-ti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 kan-ta-tok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 mi-att
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 szin-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 fe-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 bo-ros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 köny-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ve-dést
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ned-nie,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 fel is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 b®-ví-tik.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 Ágyém-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ban a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 nyé-kos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 vi-dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/cmr/m/n/10 55 to-
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 57--59
+\T1/cmr/m/n/10 ru-ma a
+ []
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (47.1118pt too wide) in paragraph at lines 60--60
+[]\T1/cmr/bx/n/14.4 Függelék
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/cmr/bx/n/14.4 má-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/cmr/bx/n/14.4 so-dik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\T1/cmr/bx/n/14.4 sec-ti-
+ []
+
+
+Overfull \hbox (17.06529pt too wide) in paragraph at lines 61--61
+[]\T1/cmr/bx/n/12 Els®
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\T1/cmr/bx/n/12 sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\T1/cmr/bx/n/12 sec-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]
+ []
+
+
+Overfull \hbox (57.5145pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 Hazádnak
+ []
+
+
+Overfull \hbox (31.43753pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 ren-
+ []
+
+
+Overfull \hbox (28.63266pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 dü-
+ []
+
+
+Overfull \hbox (28.63266pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 let-
+ []
+
+
+Overfull \hbox (24.74472pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 le-
+ []
+
+
+Overfull \hbox (27.79953pt too wide) in paragraph at lines 63--63
+\T1/cmr/m/n/10 n¶l 
+ []
+
+
+Overfull \hbox (20.1625pt too wide) in paragraph at lines 64--64
+[]\T1/cmr/m/n/10 Légy
+ []
+
+
+Overfull \hbox (25.85556pt too wide) in paragraph at lines 64--64
+\T1/cmr/m/n/10 hí-
+ []
+
+
+Overfull \hbox (26.41098pt too wide) in paragraph at lines 64--64
+\T1/cmr/m/n/10 ve,
+ []
+
+
+Overfull \hbox (24.74472pt too wide) in paragraph at lines 64--64
+\T1/cmr/m/n/10 oh
+ []
+
+
+Overfull \hbox (30.85434pt too wide) in paragraph at lines 64--64
+\T1/cmr/m/n/10 ma-
+ []
+
+
+Overfull \hbox (35.88089pt too wide) in paragraph at lines 64--64
+\T1/cmr/m/n/10 gyar; 
+ []
+
+[6]
+Overfull \hbox (33.27042pt too wide) in paragraph at lines 65--65
+[]\T1/cmr/m/n/10 Bölcs®d
+ []
+
+
+Overfull \hbox (23.63388pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 az
+ []
+
+
+Overfull \hbox (18.13522pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (34.46457pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 maj-
+ []
+
+
+Overfull \hbox (30.29892pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 dan
+ []
+
+
+Overfull \hbox (24.24484pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 sí-
+ []
+
+
+Overfull \hbox (28.93814pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 rod
+ []
+
+
+Overfull \hbox (23.68942pt too wide) in paragraph at lines 65--65
+\T1/cmr/m/n/10 is, 
+ []
+
+
+Overfull \hbox (20.85678pt too wide) in paragraph at lines 66--67
+[]\T1/cmr/m/n/10 Mely
+ []
+
+
+Overfull \hbox (32.79831pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/n/10 ápol
+ []
+
+
+Overfull \hbox (18.13522pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (24.74472pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/n/10 el-
+ []
+
+
+Overfull \hbox (26.41098pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/n/10 ta-
+ []
+
+
+Overfull \hbox (30.6044pt too wide) in paragraph at lines 66--67
+\T1/cmr/m/n/10 kar. 
+ []
+
+
+Overfull \hbox (14.19174pt too wide) in paragraph at lines 66--67
+
+ []
+
+
+Overfull \hbox (6.69357pt too wide) in paragraph at lines 68--68
+[]\T1/cmr/m/n/10 A
+ []
+
+
+Overfull \hbox (35.01999pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 nagy
+ []
+
+
+Overfull \hbox (25.57785pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (25.30014pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 lá-
+ []
+
+
+Overfull \hbox (29.7435pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 gon
+ []
+
+
+Overfull \hbox (18.6351pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 e
+ []
+
+
+Overfull \hbox (25.57785pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 ki-
+ []
+
+
+Overfull \hbox (27.79953pt too wide) in paragraph at lines 68--68
+\T1/cmr/m/n/10 v¶l 
+ []
+
+
+Overfull \hbox (33.40927pt too wide) in paragraph at lines 69--69
+[]\T1/cmr/m/n/10 Nincsen
+ []
+
+
+Overfull \hbox (30.90988pt too wide) in paragraph at lines 69--69
+\T1/cmr/m/n/10 szá-
+ []
+
+
+Overfull \hbox (36.68625pt too wide) in paragraph at lines 69--69
+\T1/cmr/m/n/10 mod-
+ []
+
+
+Overfull \hbox (23.10623pt too wide) in paragraph at lines 69--69
+\T1/cmr/m/n/10 ra
+ []
+
+
+Overfull \hbox (35.01999pt too wide) in paragraph at lines 69--69
+\T1/cmr/m/n/10 hely; 
+ []
+
+
+Overfull \hbox (28.63266pt too wide) in paragraph at lines 70--70
+[]\T1/cmr/m/n/10 Áldjon
+ []
+
+
+Overfull \hbox (34.18686pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 vagy
+ []
+
+
+Overfull \hbox (30.88211pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 ver-
+ []
+
+
+Overfull \hbox (27.24411pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 jen
+ []
+
+
+Overfull \hbox (30.9932pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 sors
+ []
+
+
+Overfull \hbox (26.9664pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 ke-
+ []
+
+
+Overfull \hbox (25.85556pt too wide) in paragraph at lines 70--70
+\T1/cmr/m/n/10 ze; 
+ []
+
+
+Overfull \hbox (10.58151pt too wide) in paragraph at lines 71--72
+[]\T1/cmr/m/n/10 Itt
+ []
+
+
+Overfull \hbox (24.74472pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/10 él-
+ []
+
+
+Overfull \hbox (32.5206pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/10 ned,
+ []
+
+
+Overfull \hbox (30.85434pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/10 hal-
+ []
+
+
+Overfull \hbox (30.57663pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/10 nod
+ []
+
+
+Overfull \hbox (31.96518pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/10 kell. 
+ []
+
+
+Overfull \hbox (42.566pt too wide) in paragraph at lines 73--73
+[]\T1/cmr/bx/n/12 Második
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/cmr/bx/n/12 sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/cmr/bx/n/12 sec-ti-
+ []
+
+[7
+
+] (feladat6.aux) ) 
+Here is how much of TeX's memory you used:
+ 3251 strings out of 475389
+ 59033 string characters out of 2777472
+ 588875 words of memory out of 3000000
+ 24639 multiletter control sequences out of 15000+600000
+ 481181 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,8n,62p,1873b,381s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecsl1000.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecbx1200.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\Diak\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Diak\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\Diak\AppData\Local\M
+iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Diak\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Diak\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Diak\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on feladat6.pdf (8 pages, 100064 bytes).
+PDF statistics:
+ 286 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

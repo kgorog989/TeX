@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+
+\title{Szövegek}
+\author{Görög Krisztina}
+\date{\today}
+
+\begin{document}
+\maketitle
+\setcounter{tocdepth}{5}
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\setcounter{secnumdepth}{5}
+
+\section{Első section}
+\pagenumbering{arabic}
+\subsection{Első subsection}
+\hulipsum
+
+\subsection{Második subsection}
+\hulipsum
+
+\section[Második]{Második section}
+\subsection{Subsection}
+\subsubsection{Subsubsection}
+\paragraph{Paragraph}
+\subparagraph{Subparagraph}
+
+\end{document}
