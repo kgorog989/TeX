@@ -1,0 +1,116 @@
+\documentclass[12pt, twoside]{article}
+\def\MakeUppercaseUnsupportedInPdfStrings{\scshape}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[colorlinks,linkcolor=blue, urlcolor=purple,citecolor=red]{hyperref}
+\usepackage{hyperref}
+\hypersetup{linktoc=all}
+
+\title{Szövegek}
+\author{Görög Krisztina}
+\date{\today}
+
+\geometry{left=5cm,right=5cm,top=3cm,bottom=3cm}
+\geometry{bindingoffset=1cm}
+\geometry{marginparwidth=3cm}
+\geometry{marginparsep=0.5cm}
+\geometry{columnsep=2cm}
+
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}\fancyhf{}\fancyfoot[LE,RO]{\thepage}}
+\setlength{\headheight}{52pt}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark}
+\fancyfoot[C]{Miskolci Egyetem}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\maketitle
+
+\begin{abstract}
+\hulipsum[1]\footnote{Ez egy megjegyzés.}
+\end{abstract}
+
+\setcounter{tocdepth}{5}
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\setcounter{secnumdepth}{5}
+
+\section{Első section}
+\pagenumbering{arabic}
+
+\autoref{s:elso}
+
+\ref{s:masodik}
+
+\ref{s:harmadik}
+
+\autopageref{s:elso}
+
+\pageref{s:masodik}
+
+\pageref{s:harmadik}
+
+\ref{s:szamozatlan}
+
+\pageref{s:szamozatlan}
+
+\subsection{Első subsection}
+\hulipsum
+\phantomsection\label{s:elso}
+\hulipsum[1]
+
+\subsection{Második subsection}
+\hulipsum
+
+\section[Második]{Második section}
+\subsection{Subsection}
+\subsubsection{Subsubsection}
+\paragraph{Paragraph}
+\label{s:masodik}
+\subparagraph{Subparagraph}
+
+\section*{Számozatlan section}
+\label{s:szamozatlan}
+\hulipsum
+
+\appendix
+\section{Függelék első section}
+\subsection{Első subsection}
+\quote{\hulipsum[2]}
+\label{s:harmadik}
+\marginpar{Ez egy megjegyzés.}
+\subsection{Második subsection}
+\quotation{\hulipsum[2]}
+\marginpar{Megjegyzés.}
+
+\section{Függelék második section}
+\subsection{Első subsection}
+\begin{verse}
+Hazádnak rendületlenűl\\
+Légy híve, oh magyar;\\
+Bölcsőd az s majdan sírod is,\\
+Mely ápol s eltakar.\newline
+
+A nagy világon e kivűl\\
+Nincsen számodra hely;\\
+Áldjon vagy verjen sors keze;\\
+Itt élned, halnod kell.
+\end{verse}
+\subsection{Második subsection}
+\href{https://www.uni-miskolc.hu/~viktoria.vadon/}{hivatkozás link}
+
+
+
+\end{document}
