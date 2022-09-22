@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{xcolor}
+\usepackage[inline]{enumitem}
+
+\setlistdepth{5}
+\renewlist{enumerate}{enumerate}{5}
+\setlist[enumerate,1]{label=\arabic*.}
+\setlist[enumerate,2]{label=\alph*.}
+\setlist[enumerate,3]{label=\Alph*.}
+\setlist[enumerate,4]{label=\roman*.}
+\setlist[enumerate,5]{label=\Roman*.}
+
+
+\begin{document}
+
+\begin{enumerate}[series=elso]
+\item egy
+	\begin{enumerate}
+	\item[a.] kettő
+		\begin{enumerate}
+		\item három
+			\begin{enumerate}
+			\item négy
+				\begin{enumerate}
+				\item öt
+				\end{enumerate}
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\hulipsum[2]
+
+\begin{enumerate}[resume=elso]
+\item alma \label{itm: alma}
+\item[\textbullet] körte \label{itm:korte}
+\item barack 
+\item szőlő \label{itm: szolo}
+\end{enumerate}
+
+számozott:
+\ref{itm: alma}
+
+számozatlan:
+\ref{itm:korte}
+
+számozott köv.:
+\ref{itm: szolo}
+
+\end{document}
