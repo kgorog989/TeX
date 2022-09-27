@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+
+\begin{document}
+
+\begin{algorithmic}[2]
+\Procedure {Quicksort}{A,p,r}
+\Require A írható tömb
+\Require  1 $\leq$ p $\leq$ r $\leq$ Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\If {p < r}
+\State       q $\leftarrow$ \Call{Partition}{A,p,r}
+\State\Call{Quicksort}{A,p,q}
+\State\Call{Quicksort}{A,q+1,r}
+\EndIf
+\EndProcedure
+\Statex
+\Statex
+\Function {Partition}{A,p,r}
+\Require A írható tömb
+\Require  1 $\leq$ p $\leq$ r $\leq$ Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\State    x $\leftarrow$ A[p]
+\State    i $\leftarrow$ p-1
+\State    j $\leftarrow$ r+1
+\While{true}
+        \Repeat
+\State            j $\leftarrow$ j-1
+        \Until {A[j] <= x}
+        \Repeat
+\State            i $\leftarrow$ i+1
+        \Until {A[i] >= x}
+        \If {i == A[j]}
+        \Else 
+\State            return(j)
+		\EndIf
+\EndWhile
+\EndFunction
+\end{algorithmic}
+
+\end{document}

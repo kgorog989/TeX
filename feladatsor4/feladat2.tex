@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{amsthm}
+\usepackage{float}
+
+\newtheorem{tet}{Tétel}
+\theoremstyle{definition}
+\newtheorem{defin}{Definíció}
+\theoremstyle{plain}
+\newtheorem{lemma}[tet]{Lemma}
+\theoremstyle{remark}
+\newtheorem{feladat}{Feladat}[section]
+\newtheorem*{megj}{Megjegyzés}
+\newfloat{forraskod}{hbt}{lop}
+\floatname{forraskod}{Verbatim}
+
+\begin{document}
+\listof{forraskod}{Verbatim lista}
+
+\verb|\texttt{verbatim}| szöveg
+
+\verb|\textbf{valami}| szöveg
+
+\verb|\textit{még valami}| szöveg
+
+\hulipsum[2]
+
+\begin{forraskod}
+\begin{verbatim}
+\begin{tet}[Pitagorasz]
+Pitagorasz tétele...
+\end{tet}
+\end{verbatim}
+\caption{Tételkörnyezet}
+\end{forraskod}
+
+\hulipsum[2]
+\begin{forraskod}
+\begin{verbatim}
+\begin{enumerate}
+\item egy
+\begin{itemize}
+\item második szint!
+\end{itemize}
+\item kettő
+\end{enumerate}
+\end{verbatim}
+\caption{Lista}
+\end{forraskod}
+
+\hulipsum[2]
+
+\end{document}

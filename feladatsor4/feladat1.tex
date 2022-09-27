@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{amsthm}
+
+\newtheorem{tet}{Tétel}
+\theoremstyle{definition}
+\newtheorem{defin}{Definíció}
+\theoremstyle{plain}
+\newtheorem{lemma}[tet]{Lemma}
+\theoremstyle{remark}
+\newtheorem{feladat}{Feladat}[section]
+\newtheorem*{megj}{Megjegyzés}
+
+\begin{document}
+
+\section{Első section}
+\begin{defin}[Első]
+A derékszögű háromszög...
+\end{defin}
+\begin{lemma}
+Ha egy háromszögnek...
+\end{lemma}
+
+\begin{feladat}[1]
+Legyenek a háromszög oldalai...
+\end{feladat}
+\begin{feladat}[2]
+Legyenek a háromszög oldalai...
+\end{feladat}
+\begin{feladat}[+1]
+Legyenek a háromszög oldalai...
+\end{feladat}
+
+\section{Második section}
+\begin{defin}[Második]
+Egy háromszög...
+\end{defin}
+\begin{tet}[Pitagorasz]
+Pitagorasz tétele...
+\end{tet}
+\begin{proof}
+Bizonyítása...
+\end{proof}
+\begin{tet}[Pitagorasz tételének megfordítása]
+Pitagorasz tételének megfordítása...
+\end{tet}
+\begin{megj}
+Ez egy megjegyzés.
+\end{megj}
+\begin{lemma}
+Ha egy háromszög...
+\end{lemma}
+\begin{feladat}[1]
+Legyenek a háromszög oldalai...
+\end{feladat}
+\begin{feladat}[2]
+Legyenek a háromszög oldalai...
+\end{feladat}
+\begin{feladat}[+1]
+Legyenek a háromszög oldalai...
+\end{feladat}
+
+
+
+\end{document}
