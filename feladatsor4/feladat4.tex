@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+\floatname{algorithm}{Algoritmus}
+\renewcommand{\listalgorithmname}{Algoritmusok listája}
+\algblockdefx{Do}{DoWhile}{\textbf{do}}[1]{\textbf{while}~#1~}
+
+\algblockdefx{Switch}{EndSwitch}{\textbf{switch}}{\textbf{end switch}}
+\algcblockdefx[Switch]{Switch}{Case}{EndSwitch}[1]{\textbf{~~~case~#1:}}{\textbf{end switch}}
+\algcblockdefx{Switch}{Default}{EndSwitch}{\textbf{~~~default:}}{\textbf{end switch}}
+
+\begin{document}
+\listof{algorithm}{\listalgorithmname}
+
+\begin{algorithm}
+\begin{algorithmic}[2]
+\Procedure {Quicksort}{@A,p,r}
+\Require A írható tömb
+\Require  1 $\leq$ p $\leq$ r $\leq$ Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\If {p < r}
+\State       q $\leftarrow$ \Call{Partition}{@A,p,r}
+\State\Call{Quicksort}{@A,p,q}
+\State\Call{Quicksort}{@A,q+1,r}
+\EndIf
+\EndProcedure
+\Statex
+\Statex
+\Function {Partition}{@A,p,r}
+\Require A írható tömb
+\Require  1 $\leq$ p $\leq$ r $\leq$ Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\State    x $\leftarrow$ A[p]
+\State    i $\leftarrow$ p-1
+\State    j $\leftarrow$ r+1
+\While{true}
+        \Repeat
+\State            j $\leftarrow$ j-1
+        \Until {A[j] $\leq$ x}
+        \Repeat
+\State            i $\leftarrow$ i+1
+        \Until {A[i] $\geq$ x}
+        \If {i == A[j]}
+        \Else 
+\State\Return{j}
+		\EndIf
+\EndWhile
+\EndFunction
+\end{algorithmic}
+\caption{Gyorskeresés algoritmus}
+\label{alg:quick}
+\end{algorithm}
+
+
+\begin{algorithm}
+\begin{algorithmic}[2]
+\Procedure {TesztASajatDefAlgnak}{x}
+\Require x < 90
+\Do
+\State x += 1
+\DoWhile{x<100}
+\Statex
+\Switch
+\Case{1}
+\State y = 2
+\Case{2}
+\State y = 7
+\Default
+\State x = 4
+\State y = 10
+\EndSwitch
+\State x += y
+\State\Return{x}
+
+\EndProcedure
+\end{algorithmic}
+\caption{Teszt a saját blokkok definiálásához}
+\label{alg:teszt}
+\end{algorithm}
+
+\end{document}
