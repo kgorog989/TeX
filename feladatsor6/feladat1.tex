@@ -1,0 +1,154 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+
+
+\begin{document}
+\section{Bevezető}
+Matematikai formulák: 
+
+a) Az $\frac{1}{n^2} $ sor összege:
+
+\[\sum_{i=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6}\]
+
+b) Az $n!$ ($n$ faktoriális) a számok szorzata 1-től n-ig, azaz
+\begin{equation}
+n! := \prod_{i=1}^n k = 1 \cdot 2 \cdot \ldots \cdot n\text{.}
+\label{eq:egyes}
+\end{equation}
+
+Konvekció szerint $0! = 1$.
+
+c) Legyen $0 \leq k \leq n$. A binomiális együttható
+\[\binom{n}{k} = \frac{n!}{k! \cdot (n-k)!}\text{,}\]
+
+ahol a faktoriálist \eqref{eq:egyes} szerint definiáljuk.
+
+d) Az előjel- azaz szignum függvényt a következőképpen definiáljuk:
+\[\operatorname{sgn}(x) := \begin{cases}
+1, & \text{ha } x > 0, \\
+0, & \text{ha } x = 0, \\
+-1, & \text{ha } x < 0.
+\end{cases}\]
+
+\section{Determináns}
+Matematikai formulák: 
+
+a) Legyen
+\[[n] := \lbrace1, 2, \ldots, n\rbrace\]
+
+a természetes számok halmaza 1-től n-ig.
+
+b) Egy $n$-edrendű $\text{permutáció }\sigma$ egy bijekció $[n]$-ből $[n]$-be. Az $n$-edrendű permutációk halmazát, az ún. szimmetrikus csoportot, $S_n$-nel jelöljük.
+
+c) Egy $\sigma \in S_n$ permutációban inverziónak nevezünk egy $(i, j)$ párt, ha $i < j$
+de $\sigma i > \sigma j$.
+
+d) Egy $\sigma \in S_n$ permutáció paritásának az inverziók számát nevezzük:
+\[ \mathcal{I}(\sigma) := \vert\lbrace(i, j) \vert i, j \in [n], i < j, \sigma_i > \sigma_j \rbrace\vert.\]
+
+e) Legyen $A \in \mathbb{R}^{n \times n} \text{, egy }n \times n$-es (négyzetes) valós mátrix:
+\[ A = \left( \begin{matrix}
+a_11 & a_12 & \cdots & a_1n \\
+a_21 & a_22 & \cdots & a_2n \\
+\vdots & \vdots & \ddots & \vdots \\
+a_n1 & a_n2 & \cdots & a_nn \\
+\end{matrix} \right) \]
+
+Az $A$ mátrix determinánsát a következőképpen definiáljuk:
+\begin{equation}
+\operatorname{det}(A) =  \begin{vmatrix}
+a_11 & a_12 & \cdots & a_1n \\
+a_21 & a_22 & \cdots & a_2n \\
+\vdots & \vdots & \ddots & \vdots \\
+a_n1 & a_n2 & \cdots & a_nn \\
+\end{vmatrix} := \sum_{\sigma \in S_n} (-1)^{\mathcal{I}(\sigma)} \prod_{i=1}^n a_{i\sigma_i}
+\label{kettes}
+\end{equation}
+
+\section{Logikai azonosság}
+
+Tekintsük az $L = \lbrace0, 1\rbrace$ halmazt, és rajta a következő, igazságtáblával definiált műveleteket:
+
+\[\begin{array}{c || c}
+x & \bar{x} \\ \hline
+0 & 1 \\
+1 & 0 \\
+\end{array}
+\quad
+\begin{array}{c c || c | c | c}
+x & y & x \vee y & x \wedge y & x \rightarrow y \\ \hline
+0 & 0 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 \\
+\end{array}
+\]
+
+Legyenek $a, b, c, d \in L$. Belátjuk a következő azonosságot:
+
+\begin{equation}
+(a \wedge b \wedge c) \rightarrow d = a \rightarrow ( b \rightarrow( c \rightarrow d))\text{.}
+\label{eq:harom}
+\end{equation}
+
+A következő azonosságokat bizonyítás nélkül használjuk:
+
+\begin{subequations}
+\begin{equation}
+x \rightarrow y = \bar{x} \vee y
+\label{eq:negyes_a}
+\end{equation}
+\begin{equation}
+\overline{x \vee y} = \bar{x} \wedge \bar{y}
+\quad
+\overline{x \wedge y} = \bar{x} \vee \bar{y}
+\label{eq:negyes_b}
+\end{equation}
+\label{eq:negyes}
+\end{subequations}
+
+A \eqref{eq:harom} bal oldala, \eqref{eq:negyes} felhasználásával
+
+\begin{equation}
+(a \wedge b \wedge c) \rightarrow d \underset{\eqref{eq:negyes_a}}{=} \overline{a \wedge b \wedge c} \vee d \underset{\eqref{eq:negyes_b}}{=} (\bar{a} \vee \bar{b} \vee \bar{c}) \vee d \text{.}
+\label{eq:otos}
+\end{equation}
+
+A \eqref{eq:harom} jobb oldala, \eqref{eq:negyes_a} ismételt felhasználásával
+\begin{align}
+a \rightarrow ( b \rightarrow( c \rightarrow d)) &= \bar{a} \vee (b \rightarrow(c \rightarrow d)) \\ \nonumber
+&= \bar{a} \vee ( \bar{b} \vee (c \rightarrow d)) \\ \nonumber
+&= \bar{a} \vee ( \bar{b} \vee (\bar{c} \vee d)), \\ \nonumber \\ \nonumber
+\label{eq:hatos}
+\end{align}
+
+ami a $\vee$ asszociativitása miatt egyenlő \eqref{eq:otos} egyenlettel.
+
+\section{Binomiális tétel}
+
+\begin{subequations}
+\begin{align}
+(a+b)^{n+1} &= (a+b) \cdot \left( \sum_{k=0}^n \binom{n}{k} a^{n-k}b^k \right) \\
+&= \cdots \\ \nonumber
+&= \sum_{k=0}^n \binom{n}{k} a^{(n+1)-k}b^k 
++ \sum_{k=1}^{n+1} \binom{n}{k-1} a^{(n+1)-k}b^{k} \\
+&= \cdots \\ \nonumber
+\begin{split}
+&= \binom{n+1}{0} a^{n+1-0} b^0 + \sum_{k=1}^n \binom{n+1}{k} a^{(n+1)-k}b^k \\ &+ \binom{n+1}{n+1} a^{n+1-(n+1)} b^{n+1} 
+\end{split} \\
+&= \sum_{k=0}^{n+1} \binom{n+1}{k} a^{(n+1)-k}b^k 
+\end{align}
+
+
+\end{subequations}
+
+\end{document}
