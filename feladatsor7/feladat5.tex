@@ -16,25 +16,12 @@
 
 
 \begin{document}
-\newcolumntype{h}[2]{>{%
-\ifthenelse{%
-\isodd{\value{rownum}}}%
-{%
-\cellcolor{#1}\color{#2}}%
-{\cellcolor{#2}\color{#1}%
-}%
-}c}%
+\newcounter{y}
+\newcounter{x}
 
-\begin{table}
-\rowcolors[]{2}{blue!20}{yellow!20}
-\begin{tabular}{h{white}{black} h{white}{black} h{white}{black}}
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-\end{tabular}
-\end{table}
+\begin{equation}
+\foreach \x/\y in {1/4, 2/7, 4/3, 3/2, 5/2, 6/8} %
+{ \frac{\x}{\y}, }
+\end{equation}
 
 \end{document}

@@ -13,28 +13,19 @@
 \usepackage{ifthen}
 \usepackage{pgffor}
 \usepackage{multicol}
+\usepackage{intcalc}
 
 
 \begin{document}
-\newcolumntype{h}[2]{>{%
-\ifthenelse{%
-\isodd{\value{rownum}}}%
-{%
-\cellcolor{#1}\color{#2}}%
-{\cellcolor{#2}\color{#1}%
-}%
-}c}%
+\newcounter{y}
+\newcounter{x}
+\newcounter{z}
 
-\begin{table}
-\rowcolors[]{2}{blue!20}{yellow!20}
-\begin{tabular}{h{white}{black} h{white}{black} h{white}{black}}
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-a & b & c \\
-\end{tabular}
-\end{table}
+\begin{multicols}{4}
+\whiledo{\value{y}<60}{\stepcounter{y}\stepcounter{x}\stepcounter{z}\arabic{y}~%
+\ifthenelse{\equal{\intcalcMod{\value{z}}{3}}{0}}{cikk}{}%
+\ifthenelse{\equal{\intcalcMod{\value{x}}{5}}{0}}{cakk}{}%
+\\}
+\end{multicols}
 
 \end{document}
