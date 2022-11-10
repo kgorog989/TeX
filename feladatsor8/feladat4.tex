@@ -8,8 +8,8 @@
 \usepackage{amsthm}
 \usepackage{enumerate}
 
-\usetheme{CambridgeUS}
-\usecolortheme{spruce}
+\usetheme{Berkeley}
+\usecolortheme{crane}
 
 \author{Görög Krisztina Erzsébet}
 \title{Feladatok megoldása}
@@ -21,6 +21,12 @@
 
 \begin{document}
 \maketitle
+\AtBeginSection{\frame{\sectionpage}}
+\AtBeginSection{\frame{%
+\tableofcontents[sections={\value{section}}]}}
+
+\section{Az első section}
+\subsection{Valamik}
 
 \begin{frame}{A frame címe}{Ez az alcím}
 Ez itt ennek a frame-nek a tartalma.
@@ -62,6 +68,8 @@ A feladat szerint írni kell néhány sort.
 \end{columns}
 \end{frame}
 
+\section{Második section}
+\subsection{Még valami}
 \begin{frame}{Negyedik frame}{Negyedik frame alcíme}
 Ez itt ennek a frame-nek a tartalma.
 
@@ -79,6 +87,7 @@ slskjf
 
 \end{frame}
 
+\subsection{Még több subsection}
 \begin{frame}{Blokk tesztelés}{Blokkok}
 \begin{block}{Blokk tesztelése}
 block tartalma, ide valamit írni kéne
@@ -135,6 +144,7 @@ Ez itt pedig egy proof...
 \end{semiverbatim}
 \end{frame}
 
+\subsection{Még több!}
 \begin{frame}{A frame címe}{Ez az alcím}
 Ez itt ennek a frame-nek a tartalma.
 

@@ -8,8 +8,8 @@
 \usepackage{amsthm}
 \usepackage{enumerate}
 
-\usetheme{CambridgeUS}
-\usecolortheme{spruce}
+\usetheme{Berkeley}
+\usecolortheme{crane}
 
 \author{Görög Krisztina Erzsébet}
 \title{Feladatok megoldása}
@@ -17,10 +17,16 @@
 \institute{Miskolci Egyetem}
 \date{\today}
 
-
+\setbeamercovered{transparent=20}
 
 \begin{document}
 \maketitle
+\AtBeginSection{\frame{\sectionpage}}
+\AtBeginSection{\frame{%
+\tableofcontents[sections={\value{section}}]}}
+
+\section{Az első section}
+\subsection{Valamik}
 
 \begin{frame}{A frame címe}{Ez az alcím}
 Ez itt ennek a frame-nek a tartalma.
@@ -62,6 +68,8 @@ A feladat szerint írni kell néhány sort.
 \end{columns}
 \end{frame}
 
+\section{Második section}
+\subsection{Még valami}
 \begin{frame}{Negyedik frame}{Negyedik frame alcíme}
 Ez itt ennek a frame-nek a tartalma.
 
@@ -79,15 +87,18 @@ slskjf
 
 \end{frame}
 
+\subsection{Még több subsection}
 \begin{frame}{Blokk tesztelés}{Blokkok}
 \begin{block}{Blokk tesztelése}
 block tartalma, ide valamit írni kéne
 \end{block}
 
+\pause
 \begin{exampleblock}{Example}
 exampleblock tartalma
 \end{exampleblock}
 
+\pause
 \begin{alertblock}{Alertblokk tesztelés}
 alertblock tartalma
 \end{alertblock}
@@ -100,6 +111,7 @@ Ez itt ennek a frame-nek a tartalma.
 Ez a theorem szerint ez és ez...
 \end{theorem}
 
+\pause
 \begin{proof}[Egy proof]
 Ez itt pedig egy proof...
 \end{proof}
@@ -135,16 +147,36 @@ Ez itt pedig egy proof...
 \end{semiverbatim}
 \end{frame}
 
-\begin{frame}{A frame címe}{Ez az alcím}
-Ez itt ennek a frame-nek a tartalma.
-
-A feladat szerint írni kell néhány sort.
+\subsection{Még több!}
+\begin{frame}{Item<> próba}{Alcím}
+\begin{itemize}
+\item<1-2> alma
+\item<2-4> eper
+\item málna
+\item<3> szőlő
+\item<3-4> barack
+\end{itemize}
 \end{frame}
 
-\begin{frame}{A frame címe}{Ez az alcím}
-Ez itt ennek a frame-nek a tartalma.
+\begin{frame}{Overlayek <>}{Onslide, only, visible}
+\onslide<1-2>{ez itt áttetsző}
 
-A feladat szerint írni kell néhány sort.
+\only<2-5>{ez az only}
+
+\onslide<1-6>{még onslide}
+
+\visible<3-4>{visible sora}
+
+\onslide<3-5>{még ennyit}
+
+\end{frame}
+
+\begin{frame}{Overlayek képekkel}{Az egyik a másik helyén}
+\begin{figure}
+\caption{Az alma ereje}
+\includegraphics<1>[height=5cm, width=5cm, keepaspectratio]{alma}
+\includegraphics<2>[height=5cm, width=5cm, keepaspectratio]{orvos_alma}
+\end{figure}
 \end{frame}
 
 \end{document}
